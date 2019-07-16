@@ -48,12 +48,30 @@ for i in range(loop):
     # x = 95.262
     z = 1.097
     x = (x+(rataRata1+(simpangan*z)))
-    rambut = (rataRata1+simpangan)
-
-    plt.plot(c)
-    plt.show()
+    rambut = (rataRata1+simpangan)    
   
     print('|{} \t'.format(i+1),'|{:.3f}\t   '.format(u),'|   {}\t'.format(b),'|    {:.3f}\t '.format(c),'|    {:.3f}\t '.format(kumKedatangan),'|    {:.2f}\t     |'.format(x),'    {:.2f}\t   |'.format(f)) 
 print('---------------------------------------------------------------------------------------------------------------------------------------------------')
 print('rata-rata {:.3f}\t'.format(rataRataSemua))
 print('a => kedatangan pelanggan \t b =>Pencucian rambut \t c=>waktu kedatangan \t => d = kumulatif kedatangan \t => e => waktu proses pemotongan rambut \t f=>  waktu selesai dilayani' )
+
+
+#graph exponen
+# cc = [43,25,16,5,1]
+
+# plt.plot(cc)
+# plt.text(1, 40, 'Distribusi Exponensial', style='italic',
+#         bbox={'facecolor':'blue', 'alpha':0.5, 'pad':10})
+
+# plt.show()
+
+#graph normal
+
+# cd = [10,24,31,18,7]
+# plt.plot(cd)
+# plt.text(1, 30, 'Distribusi Normal', style='italic',
+#         bbox={'facecolor':'cyan', 'alpha':0.5, 'pad':10})
+# plt.show()
+    
+
+   
